@@ -1,0 +1,48 @@
+body {
+    background-color: #044F68;
+}
+
+div {
+    font-size: 20px;
+    padding: none;
+    margin: none;
+    display: flex;
+    justify-content: center;
+    background-color: white;    
+}
+
+input, textarea {
+    font-size: 15px;
+    padding: 5px 10px;
+    margin: 5px;
+    width: 250px;
+}
+
+input:hover {
+
+    color: #044F68;
+    border: solid 2px;
+    border-radius: 5px;
+}
+
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    color: white;
+    background-color: #044F68;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    width: 270px;
+    align-content: center;
+}
+
+button:hover {
+    background-color: white;
+    color: #044F68;
+    border-color: #044F68;
+    border: solid 1px;
+}
+
